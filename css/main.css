@@ -1,3 +1,7 @@
+body {
+	background-color: #fff;
+	color: #999;
+}
 a {
 	text-decoration: none;
 }
@@ -11,4 +15,21 @@ a {
 #logo {
 	text-align: center;
 	margin: 0;
+}
+header {
+	background: #19d5c2;
+	border-color: #33beb0;
+}
+
+h1, h2 {
+	color: #fff;
+}
+nav {
+	background: #33beb0;
+}
+nav a, nav a:visited {
+	color: #fff;
+}
+nav a.selected, nav a:hover {
+	color: #068174;
 }
